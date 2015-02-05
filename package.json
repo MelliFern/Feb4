@@ -1,0 +1,26 @@
+{
+  "name": "assignment_feb4",
+  "version": "0.1.0",
+  "description": "assignment feb4 adding grunt and package.json to feb3 assignment",
+  "main": "greet.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MelliFern/Feb4.git"
+  },
+  "author": "Melissa Fernandes <fernandesmelissa13@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MelliFern/Feb4/issues"
+  },
+  "homepage": "https://github.com/MelliFern/Feb4",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  }
+}
