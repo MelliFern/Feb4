@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 var greet = require('./lib/hello.js');
 

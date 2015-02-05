@@ -5,6 +5,7 @@ var hello = require('../lib/hello.js');
 
 describe('hello2 test', function(){
     it('test Greet no args', function(){
+     process.argv[2]=null;
      expect(hello.hello()).to.eql('Hello Everyone');
     });
 
